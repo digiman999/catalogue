@@ -22,7 +22,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return 'catalogue homeee'
+    return 'catalogue home'
+
+@app.route('/catalogue', methods=['POST'])
+def catalogue_add():
+    return 'catalogue add'
 
 
 app.run(debug=True)
