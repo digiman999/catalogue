@@ -22,7 +22,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return 'catalogue home'
+    return 'catalogue homeee'
 
 
 app.run(debug=True)
